@@ -2,8 +2,31 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
+            <link rel="stylesheet" href="./style.css">
             <title>Rock, Paper, Scissors</title>
-            <script src="./java.js"></script>
+            <script src="./java.js" defer></script>
         </head>
+        <body>
+            <div class="welcome">
+                <h1>Welcome to Rock, Paper, Scissors!</h1>
+                <h4>Make your choices!</h6>
+            </div>
+            <div class="main">
+                <button class="choice">Paper</button>
+                <button class="choice">Rock</button>
+                <button class="choice">Scissors</button>
+            </div>
+            <div class="score">
+                <div>Your scrore: <span id="humanScore"></span></div>
+                <div>Computer score: <span id="compScore"></span></div>
+            </div>
+            <div class="aftermatch"> </div>
+            <h2 class="outcome"></h2> 
+            <div  id="playagain">
+                <button id="buttonplay">PLAY AGAIN ?</button>
+            </div>
+
+
+        </body>
+
     </html>
-</DOCTYPE>

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body {
+    flex-direction: column ;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+}
+
+.choice {
+    margin-top: 50px;
+    background-color: rgb(64, 181, 196);
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    flex: auto;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.aftermatch,
+.outcome {
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#buttonplay {
+    padding: 10px;
+    color: rgb(255, 0, 200);
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+#playagain {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
